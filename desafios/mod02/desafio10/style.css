@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(midias/fontes/idroid.otf);
+}
+
+@font-face {
+    font-family: bison;
+    src: url(midias/fontes/Bison-Bold\(PersonalUse\).ttf);
+
+}
+
+/*:root {
+    scroll-behavior: smooth;
+}*/
+
+/*h4:target {
+    border: 2px solid black;
+}*/
+
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(180deg, #84E1AD, #2A8B55, #1A5C38);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 2em;
+    text-shadow: 3px 3px 5px #00070357;
+    padding: 15px;
+}
+
+.subtitulo {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 1.5em;
+    text-shadow: 3px 3px 5px #00070357;
+    padding: 5px;
+}
+
+nav {
+    text-align: left;
+    text-indent: 20px;
+    display: inline-flexbox;
+}
+
+nav>a {
+    color: white;
+    
+}
+
+nav:hover>a {
+    
+    padding: 5px;
+}
+
+nav>a:hover {
+    background-color: #84E1AD;
+    
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 0px;
+    box-shadow: 3px 3px 5px #1a5c3841;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+section {
+    padding: 15px;
+}
+
+h1 {
+    font-family: bison;
+    font-size: 2em;
+}
+
+h2,
+h3 {
+    font-family: idroid;
+    color: #1A5C38;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    background-image: linear-gradient(to right, #84e1ac71 10%, white 90%);
+    font-size: 1.5em;
+}
+
+h4 {
+    font-family: Arial, sans-serif;
+    background-color: #2a8b569c;
+    padding: 15px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 2em;
+    padding: 0px 10px;
+}
+
+span {
+    color: #195a36;
+    font-weight: bolder;
+}
+
+.video {
+    background-color: #1A5C38;
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+article {
+    background-color: #84e1ac7e;
+    font-family: Arial, sans-serif;
+    box-shadow: 3px 3px 5px #1a5c3841;
+    border-radius: 10px;
+
+}
+
+div {
+    columns: auto;
+    columns: 2;
+    width: 80%;
+    list-style-type: "\2713";
+    font-family: Arial, sans-serif;
+
+}
+
+div {
+    display: inline-block;
+    padding: 0 200px 0 0;
+}
+
+footer {
+    font-family: Arial, sans-serif;
+    background-color: #1A5C38;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+footer>p {
+    margin: 0px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #195a36;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p>a {
+    color: #84E1AD;
+}
+
+p>a:hover {
+    text-decoration: underline;
+}
+
+main a::after {
+    content: "🔗";
+}

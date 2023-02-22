@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <style>
+    /* Regra pra inserir fontes. Posso colocar no HTML com a tag style ou no CSS sem a tag.
+    
+    @font-face {
+        font-family: "Celtasmigoria";
+        src: url(font/Celtasmigoria.ttf) format("opentype");
+    }*/
+   </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão dia 05 de fevereiro de 2023</title>
+    <link rel="stylesheet" href="style03.css">
+</head>
+<body>
+    <h1>Revisando CSS</h1>
+    <main>
+    <h2>Tipos de Estilos em CSS</h2>
+    <ul>
+        <li>Inline</li>
+        <p>Só na linha.</p>
+        <li>Interno</li>
+        <p>Só na página.</p>
+        <li style="font-weight: bold;">Externo</li>
+        <p>Para tudo.</p>
+        <p>Fazer um style.css, coloco a tag do link:css, crio o link no head, após o <i>title</i> e clico no nome criado leo link.css, aí o VSCode vai criar um arquivo.css no qual vou colocar os seletores.</p>
+        <p>Primeira coisa que coloco no CSS Externo é a regra da acentuação <code>@charset "UTF-8";</code>. Não esquecer o ; após cada regra.</p>
+    </ul>
+    <h3>Psicologia das cores</h3>
+    <p>Representação por Código RGB. Coloco <code>rgb(0,0,255)</code> para azul. RGB vai de 0 a 255. Com vírgula e entre parenteses.</p>
+    <p>Representação por Código Hexadecimal. Coloco <code>#0000ff</code>. Hexadecimal tem 16 algarismos. Vai de 0 a 9 e de a a f. Coloco tudo sem vírgula e sem parenteses.</p>
+    <h3>Fazendo Gradiente</h3>
+    <p>CSS entende gradiente como imagem. Então coloco <code>background-image: linear-gradient(45deg, white, red)</code>;. Não esquecer de separar com espaço e vírgula. Colocar <code>background-attachment: fixed</code> para a página não ficar rolando.</p>
+    <p>Posso colocar <code>...radial-gradient(circle, white, red);</code>. Posso ainda colocar quanto de cor quero para cada uma <code>(..., white 10%, red 50%);</code>.</p>
+    <h3>Tipografia</h3>
+    <ol type="a">Shorthand font
+    <li>font family</li>
+    <li>font size</li>
+    <li>font weight</li>
+    <li>font style</li>
+</ol>
+    <p>Ainda, mas fora do shorthand, posso colocar text-decoration underline</p>
+    <p>Posso <strong>importar fonte do googlefonts</strong>. Escolho ela, ciclo no view selected families,depois seleciono @import, copio a regra e colo no início de meu .css, sem o style. Em seguida é só inserir o nome da família que também aparece no googlefonts.</p>
+</main>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo audio em MP3</h1>
+    <audio src="midias/audio.mp3.mp3" controls loop></audio>
+    <!--mas é melhor colocar os source separados-->
+    <p>Colocando sources separadamente</p>
+    <audio preload="metadata" autoplay controls loop> 
+        <source src="midias/audio.mp3.mp3" type="audio/mpeg">
+    </audio>
+    <p>Parece que seu navegador é incompátivel som os tipos de audios disponibilizados. Clique aqui e faça o download do arquivo <a href="midias/audio.mp3.mp3" download rel="audio/mpeg">audio.mp3.</a></p>
+        
+    
+</body>
+</html>

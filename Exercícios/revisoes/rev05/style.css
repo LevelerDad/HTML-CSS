@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/** {height: 100%}*/
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&family=Work+Sans:wght@600&display=swap');
+main {
+    font: normal bold 2em "Princess Sofia";
+    background-image: radial-gradient(circle, white, rgb(106, 106, 246));
+    width: 900px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(85, 4, 92, 0.447);
+    color: rgb(118, 54, 5);
+    text-align: center;
+    }
+    body {
+        background-color: rgb(70, 70, 136);
+        background-attachment: fixed;
+    }
+h1 {
+    text-shadow: 3px 3px 3px rgba(58, 17, 2, 0.808);
+}
+p {
+    font: normal normal 1em arial, sans-serif;
+    text-align: justify;
+}

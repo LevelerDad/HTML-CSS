@@ -1,0 +1,90 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    *height: 100%;
+    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(46, 73, 97);
+    background-image: radial-gradient(circle, white, rgba(0, 255, 247, 0.882), rgb(205, 117, 227));
+    text-align: justify;
+    margin: auto;
+    background-attachment: fixed;
+    
+}
+header {
+    color: rgb(46, 73, 97);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+h1 {
+    font-family: 'VT323', monospace;
+    font-size: 4em;
+    color: #275950;
+    text-align: center;
+    /*text-shadow: 2px 2px 2px darkslateblue;*/
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+h2 {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 2px darkslateblue;
+   }
+   h3 {
+    text-indent: 50px;
+   }
+a {
+    text-decoration: none;
+    color: #275950;
+    }
+div {
+    display: inline-block;
+    color: rgb(4, 26, 46);
+    padding: 10px 10px;
+    border: 2px inset rgba(107, 179, 210, 0.705);
+    border-radius: 5px;
+   }
+div:hover {
+          background-color: rgba(250, 249, 250, 0.36);
+          font-weight: bolder;
+          font-size: 1.2em;
+          }
+main {
+    /*width: 900px;*/
+    background-color: rgba(240, 255, 255, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 5px;
+        
+}
+section {
+    background-color:rgba(245, 245, 220, 0);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+article {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(51, 35, 5, 0.297);
+}
+p{
+    text-align: justify;
+    text-indent: 40px;
+}
+footer {
+    width: auto;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 2px;
+    margin: 0px;
+   
+}
