@@ -32,12 +32,12 @@ header h1 {
     font-weight: normal;
     padding-top: 50px;
     font-variant: small-caps;
-    /*text-transform: uppercase;*/
 }
 
 header p {
     font-family: var(--font-destaque);
     padding-bottom: 50px;
+    font-size: 1.5vw
 }
 
 a {
@@ -55,7 +55,10 @@ section {
     font-size: 3.5vw;
     padding: 10vh 0vh 10vh 30px;
     line-height: 2em;
+}
 
+section p {
+    padding-bottom: 2em;
 }
 
 .normal {
@@ -65,45 +68,28 @@ section {
 .imagem {
     background-color: rgb(73, 71, 71);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.349);
+    background-attachment: fixed;
 }
 
 .imagem p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.212);
+    background-color: rgba(0, 0, 0, 0.479);
     padding: 5px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.973);
 }
 
-/*.container-01 {
+#img01 {
     background-image: url(imagens/background001.jpg);
-    padding: 10px;
-    background-attachment: scroll;
-
+    background-position: right center;
+    background-size: cover;
 }
 
-.conteudo-01 {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.493);
-    width: 41.5%;
-    padding: 5px;
-    margin: 80px 10px;
-    background-attachment: fixed;
-
-}
-
-.container-02 {
+#img02 {
     background-image: url(imagens/background002.jpg);
-    padding: 10px;
-
+    background-position: right center;
+    background-size: cover;
 }
-
-.conteudo-02 {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.493);
-    width: 42.5%;
-    padding: 5px;
-    margin: 80px 10px;
-
-}*/
 
 footer {
 
@@ -112,4 +98,8 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+footer p {
+    font-size: 1.5vw
 }
